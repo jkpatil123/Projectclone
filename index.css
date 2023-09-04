@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+
+}
+
+.topnav{
+    margin:20px 20px;
+}
+.topnav a  {
+    color: black;
+    text-align: center;
+    padding: 20px 26px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav button{
+    color: #f1e7e7;
+    text-align: center;
+   background-color:#43c94a;
+    text-decoration: none;
+    font-size: 17px;
+    height: 40px;
+    width: 100px;
+    border-radius: 15%;
+    
+  }
+  .topnav-right {
+    float: right;
+
+  }
+  
+/* Change the color of links on hover */
+.topnav a:hover {
+    color: #43c94a;
+    text-decoration:underline;
+    text-underline-offset: 15px;
+    text-decoration-thickness :3px;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    text-decoration:underline;
+    text-underline-offset: 15px;
+    text-decoration-thickness :3px;
+    color: #43c94a;
+    margin-top: 25%;;
+  }
+.second-block{
+  display: flex;
+  justify-content:space-around;
+  margin: 0px 50px;
+}
+.logo{
+    margin: 20px  10px;
+    padding-left: 10px;
+}
+h1{
+  margin-left: 10PX;
+  margin-top: 40px;
+ font-weight: lighter;
+ font-size: 60px;
+ text-decoration: none;
+
+}
+h2{
+  margin-top: 0px;
+  font-size: 50px;
+  text-decoration: none;
+  visibility: hidden;
+}
+
+.numberOfBox{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content:right;
+
+}
+.numberOfBox > div {
+  width: 200px;
+  margin: 15px;
+  text-align: center;
+  line-height: 70px;
+  font-size: 30px;
+  border-radius: 10%;
+  
+}
+.block{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+.block li{
+  text-decoration: none;
+  list-style-type:none;
+  font-weight: lighter;
+  color: #f1e7e7;
+  font-size: 20px;
+  
+}
+.block6{
+  background-color: #43c94a;
+}
+.block1{
+  background-color: #ee249a;
+
+}
+.block2{
+  background-color: #0e0bc4;
+
+}
+.block3{
+  background-color: #e98b1ffa;
+
+}
+.block4{
+  background-color: #d35a0ae1;
+
+}
+.block5{
+    background-color: #dd2114;
+
+}
+.inner-block{
+  width:100px; 
+  height:100px; 
+  border-radius: 50%;
+   background-color: aliceblue;
+ margin-top: 30px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+.fa-school-flag{
+  padding-top: 10px;
+ font-size: 70px; 
+ color: #e98b1ffa;
+}
+.fa-location-dot{
+  padding-top: 10px;
+ font-size: 70px; 
+ color: #0e0bc4;
+}
+.fa-medal{
+  padding-top: 30px;
+ font-size: 70px; 
+ color:#e98b1ffa;
+}
+.fa-rocket{
+  padding-top: 30px;
+  font-size: 70px; 
+  color: #d35a0ae1;
+}
+.fa-graduation-cap{
+  padding-top: 30px;
+  font-size: 70px; 
+  color: #dd2114;
+}
+
+.fa-calendar-days{
+  padding-top: 30px;
+  font-size: 70px; 
+  color: #43c94a;
+}
